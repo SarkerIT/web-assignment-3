@@ -38,98 +38,124 @@
 
     <title>Hockey's Club</title>
   </head>
-  <!-- sm: 640px -->
-  <!-- md: 768px -->
-  <body class="font-manrope p-5 lg:p-28">
+  <!-- sm: 640px to 767px -->
+  <!-- md: 768px 1023px-->
+  <body class="lg:max-w-7xl font-manrope lg:p-5 mx-auto bg-purple-300">
     <!-- nav section  -->
-
-    <div class="navbar bg-base-100 flex justify-around my-11">
-      <div class="flex justify-around">
-        <div class="md:hidden">
-          <!-- hidden div -->
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+    <div class="bg-slate-400 mx-auto mb-10">
+      <div class="navbar flex justify-between my-5">
+        <div class="flex justify-between">
+          <div class="md:hidden">
+            <!-- hidden div -->
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
+                <li><a>Home</a></li>
+                <li>
+                  <a>About</a>
+                </li>
+                <li><a>Pages</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact</a></li>
+              </ul>
             </div>
-            <ul
-              tabindex="0"
-              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+          </div>
+          <!-- logo div -->
+          <div>
+            <a class="text-3xl lg:text-5xl font-bold"
+              >Hockey<span class="text-[#FF4240]">'</span>s</a
             >
-              <li><a>Home</a></li>
-              <li>
-                <a>About</a>
-              </li>
-              <li><a>Pages</a></li>
-              <li><a>Blogs</a></li>
-              <li><a>Contact</a></li>
+          </div>
+          <!-- menu div  -->
+          <div class="hidden md:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Pages</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Contact</a></li>
             </ul>
           </div>
         </div>
-        <!-- logo div -->
-        <div>
-          <a class="text-5xl font-bold"
-            >Hockey<span class="text-[#FF4240]">'</span>s</a
+        <!-- Search and button div  -->
+        <div class="gap-5">
+          <img src="./Images/icons/search.svg" alt="" />
+          <a class="btn btn-info bg-[#FF4240] text-white text-lg border-none"
+            >Get Tickets</a
           >
         </div>
-        <!-- menu div  -->
-        <div class="navbar-center hidden md:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Pages</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-      <!-- button div  -->
-      <div class="gap-5">
-        <img src="./Images/icons/search.svg" alt="" />
-        <a class="btn btn-info bg-[#FF4240] text-white text-lg border-none"
-          >Get Tickets</a
-        >
       </div>
     </div>
 
+    <!-- ======================================= -->
     <!-- hero section  -->
+    <div class="h-20 bg-red-300 border-4 border-blue-700 border-solid">
+      Hero section
+    </div>
     <!-- sm: 640px -->
     <!-- md: 768px -->
+    <main>
+      <!-- professional club Intro TEXT section  -->
+      <div class="h-20 bg-blue-300 border-4 border-red-400">
+        club Intro TEXT
+      </div>
 
-    <!-- professional club Intro TEXT section  -->
-
-    <!-- professional  club stat section   -->
-
-    <!-- program section Intro TEXT section -->
-
-    <!-- program section image /description  -->
-
-    <!-- product section TEXT  -->
-
-    <!-- product section: product details section  -->
-
-    <!-- client question TEXT  -->
-
-    <!-- client question details section  -->
-
-    <!-- get in touch TEXT section BONUS -->
-
-    <!-- get in touch details section BONUS -->
-
-    <!-- social media section -->
-
+      <!-- professional  club stat section   -->
+      <div class="h-20 bg-red-300 border-4 border-blue-700 border-solid">
+        Professional Club
+      </div>
+      <!-- program section Intro TEXT section -->
+      <div class="h-20 bg-blue-300 border-4 border-red-400">Program TEXT</div>
+      <!-- program section image /description  -->
+      <div class="h-20 bg-red-300 border-4 border-blue-700 border-solid">
+        Program Section
+      </div>
+      <!-- product section TEXT  -->
+      <div class="h-20 bg-blue-300 border-4 border-red-400">Product TEXT</div>
+      <!-- product section: product details section  -->
+      <div class="h-20 bg-red-300 border-4 border-blue-700 border-solid">
+        Product section
+      </div>
+      <!-- client question TEXT  -->
+      <div class="h-20 bg-blue-300 border-4 border-red-400">
+        Client Question TEXT
+      </div>
+      <!-- client question details section  -->
+      <div class="h-20 bg-red-300 border-4 border-blue-700 border-solid">
+        Client Questions section
+      </div>
+      <!-- get in touch TEXT section BONUS -->
+      <div class="h-20 bg-blue-300 border-4 border-red-400">
+        Get In Touch TEXT
+      </div>
+      <!-- get in touch details section BONUS -->
+      <div class="h-20 bg-red-300 border-4 border-blue-700 border-solid">
+        Get in touch details section
+      </div>
+      <!-- social media section -->
+      <div class="h-20 bg-blue-300 border-4 border-red-400">Social Media</div>
+    </main>
     <!-- footer section  -->
+    <div class="h-20 bg-red-300 border-4 border-blue-700 border-solid">
+      Footer section
+    </div>
   </body>
 </html>
