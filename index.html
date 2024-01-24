@@ -49,7 +49,7 @@
   <body class="lg:max-w-7xl font-manrope lg:p-5 mx-auto">
     <!--   bg-purple-300 -->
     <!-- nav section  -->
-    <div class="bg-slate-400 mx-auto mb-10">
+    <div class="mx-auto mb-10">
       <div class="navbar flex justify-between my-5">
         <div class="flex justify-between">
           <div class="md:hidden">
@@ -114,11 +114,52 @@
     <!-- ======================================= -->
 
     <!-- hero section  -->
-    <div class="h-60 bg-red-300 border-4 border-blue-700 border-solid">
-      Hero section
+
+    <div class="carousel w-full">
+      <!-- slide 1 -->
+      <div id="slide1" class="carousel-item relative w-full">
+        <img src="./Images/banner/1.png" class="w-full" />
+        <div
+          class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+        >
+          <a href="#slide4" class="btn btn-circle">❮</a>
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+        <!-- text box  1 -->
+      </div>
+
+      <!-- slide 2 -->
+      <div id="slide2" class="carousel-item relative w-full">
+        <img src="./Images/banner/2.jpg" class="w-full" />
+        <div
+          class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+        >
+          <a href="#slide1" class="btn btn-circle">❮</a>
+          <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+    </div>
+
+    <!--  Extra text on slider -->
+    <div
+      class="lg:absolute justify-between transform translate-y-10 left-[800px] right-[400px] top-2/4 bg-gray-800 my-12 rounded-lg p-4 text-white"
+    >
+      <p class="text-2xl pb-4 font-bold">Meet all the Heros from the field</p>
+      <p>
+        Meet players that are currently playing in our teams around the world.
+        Also meet players that played with us in the past.
+      </p>
     </div>
 
     <!-- ======================================= -->
+    <!-- Hidden Text Section for SM Device -->
+    <!-- <div class="lg:hidden bg-gray-800 my-12 rounded-lg p-10 text-white">
+      <h1 class="text-2xl pb-4 font-bold">Meet all the Heros from the field</h1>
+      <p>
+        Meet players that are currently playing in our teams around the world.
+        Also meet players that played with us in the past.
+      </p>
+    </div> -->
     <!-- sm: 640px to 767px -->
     <!-- md: 768px 1023px-->
     <main class="my-10">
@@ -562,12 +603,12 @@
         </p>
       </div>
 
-      <!-- client question details section  -->
+      <!-- client question details section DONE -->
       <div class="my-16 p-0 sm:p-10">
         <div class="grid grid-cols-12 grid-rows-2 lg:grid-rows-1">
           <!-- image  -->
           <div
-            class="col-span-12 lg:col-span-5 flex items-center justify-center mb-10 bg-[url(./Images/client-questions/11.png)] bg-no-repeat bg-center bg-contain rounded-xl mt-6"
+            class="col-span-12 lg:col-span-5 flex items-center justify-center mb-10 bg-[url(./Images/client-questions/11.png)] bg-no-repeat bg-center bg-contain rounded-xl mt-6 sm:mt-0"
           ></div>
           <!-- questions  -->
           <div class="col-span-12 lg:col-span-7">
@@ -666,7 +707,7 @@
           </div>
         </div>
       </div>
-      <!-- get in touch TEXT section BONUS Done -->
+      <!-- get in touch TEXT section BONUS DONE -->
       <div
         class="border-2 border-black-500 border-dashed border-x-0 my-10 text-center py-8"
       >
